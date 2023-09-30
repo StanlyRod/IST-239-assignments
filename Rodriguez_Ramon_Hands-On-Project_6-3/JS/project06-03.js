@@ -3,15 +3,12 @@
       Chapter 6
       Project 06-03
 
-      Script to complete a form containing billing and shipping address information
-      Author: 
-      Date:   
-
-      Filename: project06-03.js
+     Rodriguez Ramon, september 30, 2023, IST239-W01, Hands-on Project 6-3
 */
 
 let useShip = document.getElementById('useShip');
 
+//run the copyshippingtobilling function on click
 useShip.addEventListener('click', copyShippingToBilling);
 
 function copyShippingToBilling()
@@ -48,13 +45,15 @@ function copyShippingToBilling()
       }
 }
 
+//select all the type text elements inside the form
 let formElements = document.querySelectorAll("input[type='text']");
 
 let fieldCount = formElements.length;
 
 let errorBox = document.getElementById('errorBox');
 
-for(let i = 0; i < formElements.length; i++)
+//run the showValidationError function on every element with invalid validation
+for(let i = 0; i < fieldCount; i++)
 {
       formElements[i].addEventListener('invalid', showValidationError);
 }
