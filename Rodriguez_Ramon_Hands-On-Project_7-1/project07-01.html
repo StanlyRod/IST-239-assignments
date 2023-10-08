@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 7th Edition
+      Chapter 7
+      Hands-on Project 7-1
+
+      Rodriguez Ramon, october 7, 2023, IST239-W01, Hands-on Project 7-1
+
+      In this project I was working in some data validation for the password text field of a form
+      where the javascript code have to validate the password text field with one upper-case letter,
+      one number, and 4 symbols.
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Hands-on Project 7-1</title>
+   <link rel="stylesheet" href="CSS/styles.css" />
+   <script src="JS/project07-01.js" defer></script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         Hands-on Project 7-1
+      </h1>
+   </header>
+
+   <section>
+      <h1>Create your Account</h1>
+      <form id="signup" name="signup" method="get" action="formsubmit.html">
+         <fieldset>
+            <legend>Enter your Account Information</legend>
+            <label for="user">Username</label>
+            <input type="text" id="user" name="user" required />
+
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="pwd" required /> 
+            
+            <div id="feedback"></div>
+            
+            <input type="submit" id="submitButton" value="Save" />
+         </fieldset>
+      </form>
+   </section>
+</body>
+</html>
