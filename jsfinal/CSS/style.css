@@ -1,0 +1,146 @@
+body {
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-size: auto;
+    background: rgb(1,6,20);
+    background: linear-gradient(0deg, rgba(1,6,20,1) 0%, rgba(187,187,187,1) 100%);
+    font-family: 'Reem Kufi Fun', Arial, Helvetica, sans-serif;
+}
+
+header {
+    min-width: 100%;
+}
+
+#head {
+    width: 100%;
+    height: 200px;
+    box-shadow:  0px 1px 0px 0px rgb(82, 82, 82);
+    background: rgb(4, 5, 16);
+    display: block;
+   
+}
+
+/*folders box*/
+section#bigbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgba(43, 43, 43, 0);
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+
+
+/*folders*/
+section#bigbox  p.folders {
+    color:rgb(223, 223, 223);
+    font-size: 1.1em;
+    margin-left: 50px;
+    margin-right: 35px;
+    width: 250px;
+}
+
+
+
+/*folders icon*/
+section#bigbox span{
+    color: rgb(223, 139, 43);
+    font-size: 2.2em;
+    filter:drop-shadow(2px 2px 2px rgb(0, 0, 0));
+}
+
+
+
+
+#profilepic {
+    border-radius: 50%;
+    width: 150px;
+    border: 2px solid rgb(155, 155, 155);
+}
+
+
+/*overlay elements...................................................................................*/
+
+div#coverlay {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+    width:100%;
+    height: 100%;
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+
+}
+
+
+section#middlebox {
+    margin: 0 auto;
+    width: 70%;
+    height: 80%;
+    border-radius: 8px;
+    background-color: rgb(11, 14, 22);
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#middlebox::-webkit-scrollbar {
+    width: 12px; /* Adjust the width of the scrollbar */
+    background-color: rgb(99, 99, 99);
+    border-radius: 1px;
+    box-shadow: inset 0 0 5px rgb(0, 0, 0);
+}
+
+#middlebox::-webkit-scrollbar-thumb {
+    background-color: #252525; /* Background color of the thumb */
+    border-radius: 1px; /* Rounded corners for the thumb */
+    width:4px;
+}
+
+
+
+#closeB {
+    /*display: block;*/
+    position: fixed;
+    color:white;
+    background-color: red;
+    text-align: center;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    top:0;
+    right:0;
+    margin-top: 10px;
+    margin-left: 850px;
+    
+}
+
+
+
+#middlebox > h3 {
+    color: rgb(240, 240, 240);
+    padding-left: 40px;
+}
+
+#middlebox > p {
+    color:rgb(204, 204, 204);
+    padding-left: 40px;
+    width: 60%;
+    letter-spacing: 2px;
+    font-size: 0.9em;
+}
+
+#middlebox > a {
+    padding-left: 40px;
+    color: rgb(223, 145, 0);
+    font-size: 0.6em;
+}
