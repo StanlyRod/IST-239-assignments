@@ -135,7 +135,7 @@ const projectsInfo = {
         title3: "Hands on project 5-5 - Debugging Challenge",
         content3: " In this project I have debugging challenge related to an online Concentration game. The challenge involves fixing errors in the code that affects tile flipping and matching functionality. Players flip image tiles and need to fix issues preventing proper game behavior.",
         url3: "https://Hands-On-Project_5-5",
-        url3ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_5-5/project05-05.html",
+        url3ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_5-5/project05-05.html"
 
     },
 
@@ -156,7 +156,7 @@ const projectsInfo = {
         title3: "Hands on project 6-5 - Debugging Challenge",
         content3: "The main task of this project is to use the browser debugging tools to fix some JavaScript errors in a conference registration form that calculates the total cost for attendees.",
         url3: "https://Hands-On-Project_6-5",
-        url3ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_6-5/project06-05.html",
+        url3ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_6-5/project06-05.html"
     },
 
 
@@ -195,15 +195,86 @@ const projectsInfo = {
         title3: "Hands on project 8-5 - Debugging Challenge",
         content3: "In this debugging challenge I have to check the code of a web based chess game and use the browser debugging tool to fix any error in the game.",
         url3: "https://Hands-On-Project_8-5",
-        url3ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_8-5/project08-05.html",
+        url3ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_8-5/project08-05.html"
     },
 
     folder9:
     {
-        title1: "",
-        content1: "",
-        url1: "",
-        url1ref: "",
+        title1: "Hands on project 9-1 - Query String",
+        content1: "In this project I learned how to create a web page where customers add greeting messages to purchased gifts. The messages are entered on one form and displayed in a shopping cart on a separate page using query string data transfer.",
+        url1: "https://Hands-On-Project_9-1",
+        url1ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_9-1/project09-01a.html",
+
+        title2: "Hands on project 9-3 - Local Storage",
+        content2: "The task for this project was to implements web storage for a blogging site, marking new articles based on the user's last visit date. \
+        The last visit date is stored using local storage with the key 'sbloggerVisit' and newly posted articles are labeled 'New'.",
+        url2: "https://Hands-On-Project_9-3",
+        url2ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_9-3/project09-03.html",
+
+        title3: "Hands on project 9-5 Debugging Challenge",
+        content3: "This project is about a debugging challenge for a winter clothing website. It involves fixing code to add selected glove products to a shopping cart using session storage.",
+        url3: "https://Hands-On-Project_9-5",
+        url3ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_9-5/product01.html"
+    },
+
+    folder10:
+    {
+        title1: "Hands on project 10-1 - Event Objects",
+        content1: "In this project I learned how to enhance a jigsaw puzzle page with drag-and-drop features using pointer events with 48 randomly placed pieces,\
+         the code mirrors that of the Oak Top House room layout for drag-and-drop functionality.",
+        url1: "https://Hands-On-Project_10-1",
+        url1ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_10-1/project10-01.html",
+
+        title2: "Hands on project 10-3 - Third Party APIs",
+        content2: "For the 10-3 project I had to create an interactive map for a Boulder cycling club, enabling users to get directions between two cycling destination in a map using the google map API directions services.",
+        url2: "https://Hands-On-Project_10-3",
+        url2ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_10-3/project10-3.html",
+
+        title3: "Hands on project 10-5 - Debugging CrossWord Puzzle",
+        content3: "In the 10-5 project I had to debug a crossword puzzle web app by examining the code and using the web browser debugging tools, I have Correct keyboard actions for typing answers, moving spaces, deleting letters, and toggling typing direction.",
+        url3: "https://Hands-On-Project_10-5",
+        url3ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_10-5/project10-5.html"
+    },
+
+
+    folder11:
+    {
+        title1: "Hands on project 11-1 - Nasa API",
+        content1: "In this project I learn how to do an http get request to the NASA API to show the astronomy picture of the day. I used Fetch to retrieve the Astronomy Picture of the Day (APOD) from NASA's API.\
+         Utilize the endpoint with the date parameter and a free API key, 'DEMO_KEY,' limited to 30 requests per hour. And retrieve JSON data with details like title, explanation, URL, and media type. ",
+        url1: "https://Hands-On-Project_11-1",
+        url1ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_11-1/project11-01.html",
+
+        title2: "Hands on project 11-3 - XAMPP",
+        content2: "The main task in this project was to complete an app retrieving Wizard Works' fireworks orders via wworders.pl script. \
+        Send user credentials for JSON response with customer name, order status, total charges, and order details. Handle order history, including dates, costs, and purchased items. Access a comprehensive view of customer orders and costs.",
+        url2: "https://Hands-On-Project_11-3",
+        url2ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_11-3/project11-03.html",
+
+        title3: "Hands on project 11-5 Debugging Challenge",
+        content3: "In this project I had to enhance a science fiction author's book review site by fixing file access errors. Using requests and responses to access archived reviews, popular authors' JSON list, and recent SF podcasts from server files.",
+        url3: "https://Hands-On-Project_11-5",
+        url3ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_11-5/project11-05.html"
+
+
+    },
+
+    folder12:
+    {
+        title1: "Hands on project 12-1 - Introduction to JQUERY",
+        content1: "For the 12-1 project I had to complete the Wildlife Sea Cruises website using jQuery. And finalize the project by implementing a dropdown menu with links to other pages on the site.",
+        url1: "https://Hands-On-Project_12-1",
+        url1ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_12-1/project12-01.html",
+
+        title2: "Hands on project 12-3 - JQUERY Animation",
+        content2: "In this project I had to Enhance the Save your Fork dessert website using jQuery visual effects on a recipe page, by implementing a toggle feature, allowing users to reveal and hide ingredients and directions by clicking the respective headings.",
+        url2: "https://Hands-On-Project_12-3",
+        url2ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_12-3/project12-03.html",
+
+        title3: "Hands on project 12-5 - Debugging Challenge",
+        content3: "The task for this debugging challenge was to fix jQuery validation errors in a web form for user data entry and I had to ensure proper functioning of username, email, and password validation for successful form submission.",
+        url3: "https://Hands-On-Project_12-5",
+        url3ref: "https://www.ist239-rodriquez.beausanders.net/Hands-On-Project_12-5/project12-05.html"
     },
 
     
@@ -304,6 +375,10 @@ const folder5 = projectsInfo.folder5;
 const folder6 = projectsInfo.folder6;
 const folder7 = projectsInfo.folder7;
 const folder8 = projectsInfo.folder8;
+const folder9 = projectsInfo.folder9;
+const folder10 = projectsInfo.folder10;
+const folder11 = projectsInfo.folder11;
+const folder12 = projectsInfo.folder12;
 
 
 
@@ -370,5 +445,36 @@ onFolder8.addEventListener("pointerdown", function(){
     CreateOverLay(folder8.title1, folder8.content1, folder8.url1, folder8.url1ref, folder8.title2, folder8.content2, folder8.url2, folder8.url2ref, folder8.title3, folder8.content3, folder8.url3, folder8.url3ref);
 });
 
+
+//folder9
+let onFolder9 = document.getElementById("folder9");
+
+onFolder9.addEventListener("pointerdown", function(){
+    CreateOverLay(folder9.title1, folder9.content1, folder9.url1, folder9.url1ref, folder9.title2, folder9.content2, folder9.url2, folder9.url2ref, folder9.title3, folder9.content3, folder9.url3, folder9.url3ref);
+});
+
+
+//folder10
+let onFolder10 = document.getElementById("folder10");
+
+onFolder10.addEventListener("pointerdown", function(){
+    CreateOverLay(folder10.title1, folder10.content1, folder10.url1, folder10.url1ref, folder10.title2, folder10.content2, folder10.url2, folder10.url2ref, folder10.title3, folder10.content3, folder10.url3, folder10.url3ref);
+});
+
+
+//folder11
+let onFolder11 = document.getElementById("folder11");
+
+onFolder11.addEventListener("pointerdown", function(){
+    CreateOverLay(folder11.title1, folder11.content1, folder11.url1, folder11.url1ref, folder11.title2, folder11.content2, folder11.url2, folder11.url2ref, folder11.title3, folder11.content3, folder11.url3, folder11.url3ref);
+});
+
+
+//folder12
+let onFolder12 = document.getElementById("folder12");
+
+onFolder12.addEventListener("pointerdown", function(){
+    CreateOverLay(folder12.title1, folder12.content1, folder12.url1, folder12.url1ref, folder12.title2, folder12.content2, folder12.url2, folder12.url2ref, folder12.title3, folder12.content3, folder12.url3, folder12.url3ref);
+});
 
 
