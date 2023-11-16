@@ -1,12 +1,13 @@
+@charset "utf-8";
+
 body {
     min-width: 100%;
     min-height: 100%;
     margin: 0;
     padding: 0;
     background-attachment: fixed;
-    background-size: auto;
-    background: rgb(1,6,20);
-    background: linear-gradient(0deg, rgba(1,6,20,1) 0%, rgba(187,187,187,1) 100%);
+    background-size: auto;    
+    background-color: rgb(18, 18, 19);
     font-family: 'Reem Kufi Fun', Arial, Helvetica, sans-serif;
 }
 
@@ -23,7 +24,14 @@ header {
    
 }
 
-/*folders box*/
+
+#profilepic {
+    border-radius: 50%;
+    width: 150px;
+    border: 2px solid rgb(155, 155, 155);
+}
+
+/*folders box......................................................................*/
 section#bigbox{
     display: flex;
     flex-direction: row;
@@ -55,14 +63,6 @@ section#bigbox span{
     filter:drop-shadow(2px 2px 2px rgb(0, 0, 0));
 }
 
-
-
-
-#profilepic {
-    border-radius: 50%;
-    width: 150px;
-    border: 2px solid rgb(155, 155, 155);
-}
 
 
 /*overlay elements...................................................................................*/
@@ -143,4 +143,19 @@ section#middlebox {
     padding-left: 40px;
     color: rgb(223, 145, 0);
     font-size: 0.6em;
+}
+
+
+
+
+/*footer..................................................*/
+footer {
+    height: 130px;
+    position: relative;
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: linear-gradient(#202025, #262626);
+    
 }
