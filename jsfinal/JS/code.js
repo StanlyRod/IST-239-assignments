@@ -5,7 +5,7 @@
 function ChangeFolderOrangeColor(value)
 {
     let foldersIcon = document.querySelectorAll("span");
-    foldersIcon[value].style.color = "rgb(234, 180, 4)";
+    foldersIcon[value].style.color = "rgb(223, 139, 43)";
 }
 
 //this function change the folder color to green
@@ -23,12 +23,12 @@ for(let i = 0; i < paragraphFolders.length; i++)
 {
     //call the change orange color when the mouse over a folder
     paragraphFolders[i].addEventListener("mouseover", function(){
-        ChangeFolderOrangeColor(i);
+        ChangeFolderGreenColor(i);
     });
 
     //call the change green color when the leave a folder
     paragraphFolders[i].addEventListener("mouseout", function(){
-        ChangeFolderGreenColor(i);
+        ChangeFolderOrangeColor(i);
     });
 }
 
@@ -291,9 +291,11 @@ function CreateOverLay(title1, content1, url1, url1ref, title2, content2, url2, 
     let middlebox = document.createElement("section");
     middlebox.id = "middlebox";
 
+
     let closeButton = document.createElement("div");
     closeButton.id = "closeB";
     closeButton.textContent = "X";
+
 
     //first project elements
     let title = document.createElement("h3");
