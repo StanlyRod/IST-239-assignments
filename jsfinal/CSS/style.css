@@ -132,9 +132,22 @@ section#middlebox {
 }
 
 
-
+/*close button div*/
 #closeB {
-    display: block;
+
+    font-size: 1.5em;
+    text-align: right;
+    /*position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color:white;*/
+    
+
+
+   /* display: block;
     position: fixed;
     color:white;
     background-color: red;
@@ -142,11 +155,30 @@ section#middlebox {
     border-radius: 50%;
     width: 23px;
     height: 23px;
-    align-items: right;
+    align-items: right;*/
     
     
     
 }
+
+
+/*close button icon*/
+span#iconImage {
+    color: rgb(255, 145, 0);
+    top: 5px;
+    right: 5px;
+    position: fixed;
+
+    /*top: 25px;
+    right: 25px;
+    position: fixed;*/
+}
+
+span#iconImage:hover {
+    cursor: pointer;
+}
+
+
 
 
 

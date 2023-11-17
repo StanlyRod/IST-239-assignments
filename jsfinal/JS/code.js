@@ -294,7 +294,11 @@ function CreateOverLay(title1, content1, url1, url1ref, title2, content2, url2, 
 
     let closeButton = document.createElement("div");
     closeButton.id = "closeB";
-    closeButton.textContent = "X";
+
+
+    let closeIcon = document.createElement("span");
+    closeIcon.id = "iconImage";
+    closeIcon.className = "fa-solid fa-circle-xmark";
 
 
     //first project elements
@@ -347,7 +351,7 @@ function CreateOverLay(title1, content1, url1, url1ref, title2, content2, url2, 
     urlthird.href = url3ref;
 
 
-
+    closeButton.appendChild(closeIcon);
 
     middlebox.appendChild(closeButton);
     middlebox.appendChild(title);
@@ -363,6 +367,13 @@ function CreateOverLay(title1, content1, url1, url1ref, title2, content2, url2, 
     middlebox.appendChild(urlthird);
 
     overlay.appendChild(middlebox);
+
+    //remove the overlay when click
+    closeIcon.addEventListener("pointerdown", function() {
+    
+        document.body.removeChild(overlay);
+
+    });
 
     document.body.appendChild(overlay);
 
@@ -478,5 +489,8 @@ let onFolder12 = document.getElementById("folder12");
 onFolder12.addEventListener("pointerdown", function(){
     CreateOverLay(folder12.title1, folder12.content1, folder12.url1, folder12.url1ref, folder12.title2, folder12.content2, folder12.url2, folder12.url2ref, folder12.title3, folder12.content3, folder12.url3, folder12.url3ref);
 });
+
+
+
 
 
