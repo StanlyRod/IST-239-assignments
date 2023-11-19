@@ -15,13 +15,21 @@ body {
 
 
 #head {
-    height: 400px;
-    box-shadow:  0px 1px 0px 0px rgb(82, 82, 82);
-    background: rgb(1, 1, 3);
-    display: flex;
+
+    /* display: flex;
     justify-content: center;
     flex-direction:row;
     flex-wrap:wrap;
+    background-color: DodgerBlue; */
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+    flex-wrap:wrap-reverse;
+    box-shadow:  0px 1px 0px 0px rgb(82, 82, 82);
+    background-color: rgb(9, 11, 19); /*rgb(6, 6, 15);*/
+    
+    
    
 }
 
@@ -32,9 +40,11 @@ div.contact-info {
 
 #profilepic {
     border-radius: 50%;
-    width: 150px;
-    border: 2px solid rgb(155, 155, 155);
-    display: inline;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(29, 124, 89, 0.833);
+    margin-bottom: 125px;
+    box-shadow:  0px 0px  25px 0px rgb(114, 114, 114);
 }
 
 /*I am */
@@ -58,24 +68,31 @@ h1#fullname {
 /*about*/
 p#about {
     color: rgb(173, 173, 173);
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 /*email*/
 p#email {
     color: rgb(173, 173, 173);
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 /*phone*/
 p#phone {
     color: rgb(173, 173, 173);
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 
+i {
+    color: rgb(43, 223, 157);
+}
 
 
+/*rgb(223, 139, 43);
+
+rgb(114, 114, 114);
+*/
 
 
 
@@ -95,7 +112,8 @@ section#topcontent > h1 {
 section#topcontent > p {
     color: rgb(205, 205, 205);
     width: 75%;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
+    font-size: 1.1em;
 }
 
 /*folders box......................................................................*/
@@ -266,7 +284,7 @@ footer {
 
 footer p {
     color: rgb(246, 246, 246);
-    font-size: 1.1em;
+    font-size: 0.8em;
     margin-left: 50px;
 }
 
