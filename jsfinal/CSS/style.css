@@ -230,8 +230,8 @@ section#middlebox {
 /*close button icon*/
 span#iconImage {
     color: rgb(255, 145, 0);
-    top: 5px;
-    right: 5px;
+    top: 30px;
+    right: 30px;
     position: fixed;
 
     /*top: 25px;
@@ -272,8 +272,7 @@ span#iconImage:hover {
 
 /*footer..................................................*/
 footer {
-    height: 60px;
-    position: relative;
+    padding: 0;
     margin-top: 277px;
     display: flex;
     flex-wrap: wrap;

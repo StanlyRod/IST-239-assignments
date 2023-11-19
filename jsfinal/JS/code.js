@@ -12,7 +12,7 @@ function ChangeFolderOrangeColor(value)
 function ChangeFolderGreenColor(value)
 {
     let foldersIcon = document.querySelectorAll("span");
-    foldersIcon[value].style.color = "rgb(135, 234, 4)";
+    foldersIcon[value].style.color = "rgb(43, 223, 157)";
 }
 
 
