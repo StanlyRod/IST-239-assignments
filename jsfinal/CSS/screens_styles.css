@@ -1,28 +1,167 @@
-/*Ramon Stanly Rodriguez
+/*
+
+Ramon Stanly Rodriguez
 IST-226-W02
-Final Project*/
+Final Project
+
+*/
 
 
 
 @media only screen and (max-width: 421px){
 
+    /*header=============================================================================*/
+
+    /*profile pic*/
+    #profilepic {
+        margin-top: 25px;
+    }
+
+
+    /*info container*/
+    .contact-info {
+        margin-left: 45px;
+    }
+
+    /*info name*/
+    h1#fullname {
+        font-size: 2.7em;
+    }
+
+    /*Top content========================================================================*/
+
+    section#topcontent {
+        width: 90%;
+        text-align: center;
+    }
+
+    section#topcontent > h1 {
+        font-size: 1.1em;
+    }
+
+    section#topcontent > p {
+        
+        margin: 0 auto;
+        letter-spacing: normal;
+        text-align: justify;
+        width: 100%;
+        
+        
+        
+        
+    }
    
 }
 
 @media only screen and (min-width: 421px){
 
+    /*header=============================================================================*/
+
+    /*profile pic*/
+    #profilepic {
+        margin-top: 25px;
+    }
+
+
+    /*info container*/
+    .contact-info {
+        margin-left: 45px;
+    }
+
+    /*info name*/
+    h1#fullname {
+        font-size: 2.7em;
+    }
+
+
+    /*font-size*/
+    .contact-info > p#about, p#email, p#phone {
+        font-size: 1.0em;
+    }
+
 
 }
 
-@media only screen and (min-width: 473px){
+@media only screen and (min-width: 515px){
+
+    /*header=============================================================================*/
+
+     /*info name*/
+     h1#fullname {
+        font-size: 2.5em;
+    }
 
     
 }
 
-/*Desktop styles*/
-@media only screen and (min-width: 784px){
 
-  
+@media only screen and (min-width: 650px){
+
+   /*header=============================================================================*/
+
+    /*info container*/
+    .contact-info {
+        margin-left: 110px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 768px){
+    /*header=============================================================================*/
+
+     /*info container*/
+     .contact-info {
+        margin-left: 165px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 820px){
+    /*header=============================================================================*/
+
+    /*info container*/
+    .contact-info {
+        margin-left: 160px;
+    }
+
+     /*font-size*/
+     .contact-info > p#about, p#email, p#phone {
+        font-size: 1.2em;
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+
+    /*header=============================================================================*/
+
+     /*profile pic*/
+     #profilepic {
+        margin-top: 45px;
+        height: 170px;
+        width: 170px;
+    }
+
+    /*info container*/
+    .contact-info {
+        margin-left: 75px;
+    }
+
+
+    /*info name*/
+    h1#fullname {
+        font-size: 2.9em;
+    }
+
+
+     /*font-size*/
+     .contact-info > p#about, p#email, p#phone {
+        font-size: 1.3em;
+    }
 
 }
 
