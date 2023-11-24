@@ -31,24 +31,46 @@ Final Project
     /*Top content========================================================================*/
 
     section#topcontent {
-        width: 90%;
-        text-align: center;
+        width: 100%;
+        
     }
 
     section#topcontent > h1 {
         font-size: 1.1em;
+        margin: auto;
+        width: 90%;
+        text-align: center;
+        margin-bottom: 20px;
+        
+        
     }
 
     section#topcontent > p {
         
-        margin: 0 auto;
-        letter-spacing: normal;
+        margin: auto;
         text-align: justify;
-        width: 100%;
+        width: 92%;
+        letter-spacing: normal;
         
-        
-        
-        
+    }
+
+    /*Folders=============================================================================*/
+
+    section#bigbox  p.folders {
+        margin-left: 63px;
+    }
+
+    /*overlay=============================================================================*/
+
+    /*middlebox*/
+    section#middlebox {
+        width: 95%;
+    }
+
+    /*tittle*/
+    #middlebox > h3 {
+        padding-left: 10px;
+        font-size: 1.0em;
     }
    
 }
@@ -80,6 +102,54 @@ Final Project
     }
 
 
+    /*Top content========================================================================*/
+
+    section#topcontent {
+        width: 100%;
+        
+    }
+
+    section#topcontent > h1 {
+        font-size: 1.1em;
+        margin: auto;
+        width: 90%;
+        text-align: center;
+        margin-bottom: 20px;
+        
+        
+    }
+
+    section#topcontent > p {
+        
+        margin: auto;
+        text-align: justify;
+        width: 92%;
+        letter-spacing: normal;
+        
+    }
+
+
+     /*Folders=============================================================================*/
+
+     section#bigbox  p.folders {
+        margin-left: 70px;
+    }
+
+
+     /*overlay=============================================================================*/
+
+    /*middlebox*/
+    section#middlebox {
+        width: 95%;
+    }
+
+     /*tittle*/
+     #middlebox > h3 {
+        padding-left: 10px;
+        font-size: 1.0em;
+    }
+
+
 }
 
 @media only screen and (min-width: 515px){
@@ -89,6 +159,14 @@ Final Project
      /*info name*/
      h1#fullname {
         font-size: 2.5em;
+    }
+
+
+     /*overlay=============================================================================*/
+
+    /*middlebox*/
+    section#middlebox {
+        width: 95%;
     }
 
     
@@ -104,6 +182,14 @@ Final Project
         margin-left: 110px;
     }
 
+
+     /*overlay=============================================================================*/
+
+    /*middlebox*/
+    section#middlebox {
+        width: 95%;
+    }
+
 }
 
 
@@ -117,6 +203,44 @@ Final Project
     }
 
 
+     /*Top content========================================================================*/
+
+
+     section#topcontent > h1 {
+        text-align: left;
+        font-size: 1.5em;
+        margin-left: 31px;
+     }
+
+     /*paragraph*/
+    section#topcontent > p {
+        font-size: 1.2em;
+        
+    }
+
+    /*Folders=============================================================================*/
+
+    section#bigbox{
+        width: 90%;
+    }
+
+    section#bigbox  p.folders {
+        margin-left: 70px;
+    }
+
+     /*overlay=============================================================================*/
+
+    /*middlebox*/
+    section#middlebox {
+        width: 80%;
+    }
+
+     /*tittle*/
+     #middlebox > h3 {
+        padding-left: 10px;
+        font-size: 1.4em;
+    }
+    
 }
 
 
@@ -133,7 +257,24 @@ Final Project
         font-size: 1.2em;
     }
 
+    /*Top content========================================================================*/
+
+    section#topcontent > h1 {
+        margin-left: 34px;
+    }
+
+
+     /*Folders=============================================================================*/
+
+     section#bigbox  p.folders {
+        margin-left: 90px;
+     }
+
+
+
 }
+
+
 
 @media only screen and (min-width: 1024px){
 
@@ -163,16 +304,107 @@ Final Project
         font-size: 1.3em;
     }
 
+     /*Top content========================================================================*/
+
+     section#topcontent > h1 {
+        margin-left: 43px;
+    }
+
+
+    /*Folders=============================================================================*/
+
+    section#bigbox  p.folders {
+        margin-left: 145px;
+     }
+
+
+     /*overlay=============================================================================*/
+
+    /*middlebox*/
+    section#middlebox {
+        height: 50%;
+    }
+
+
 }
 
-@media only screen and (min-width: 1107px){
+@media only screen and (min-width: 1280px){
 
-    /* footer {
-        flex-direction: row;
-    } */
+     /*Folders=============================================================================*/
+
+     section#bigbox  p.folders {
+        margin-left: 218px;
+     }
 
 
      
+
 }
+
+@media only screen and (min-width: 1366px){
+
+
+     /*Top content========================================================================*/
+    section#topcontent > h1 {
+        margin-left: 55px;
+    }
+
+
+    /*Folders=============================================================================*/
+
+    section#bigbox  p.folders {
+        margin-left: 240px;
+     }
+
+
+     /*overlay=============================================================================*/
+
+    /*middlebox*/
+    section#middlebox {
+        height: 60%;
+    }
+}
+
+
+@media only screen and (min-width: 1542px){
+
+    /*Top content========================================================================*/
+
+    section#topcontent > h1 {
+       margin-left: 200px;
+   }
+
+    section#topcontent > p {
+       width: 55%;
+       text-align: left;
+       margin-left: 200px;
+    }
+
+
+
+
+
+
+    
+
+    /*folders============================================================================*/
+
+    section#bigbox  p.folders {
+        margin-left: 150px;
+
+        margin-right: 0px;
+
+        
+     }
+
+
+  
+
+}
+
+
+
+
+
 
     
