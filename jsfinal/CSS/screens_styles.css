@@ -396,21 +396,15 @@ IST-239 Final Project
     /*Top content========================================================================*/
 
     section#topcontent > h1 {
-       margin-left: 200px;
+       margin-left: 150px;
    }
 
     section#topcontent > p {
        width: 55%;
        text-align: left;
-       margin-left: 200px;
+       margin-left: 150px;
     }
 
-
-
-
-
-
-    
 
     /*folders============================================================================*/
 
@@ -418,11 +412,15 @@ IST-239 Final Project
         margin-left: 150px;
 
         margin-right: 0px;
-
-        
      }
 
 
+      /*overlay=============================================================================*/
+
+       /*middlebox*/
+    section#middlebox {
+        height: 70%;
+    }
   
 
 }
