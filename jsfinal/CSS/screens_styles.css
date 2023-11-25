@@ -1,8 +1,8 @@
 /*
 
 Ramon Stanly Rodriguez
-IST-226-W02
-Final Project
+IST-239 Final Project
+11/28/23
 
 */
 
@@ -72,10 +72,21 @@ Final Project
         padding-left: 10px;
         font-size: 1.0em;
     }
+
+    #middlebox > p {
+        padding-left: 10px;
+        width: 90%;
+        text-align: justify;
+    }
+
+    /*url*/
+    #middlebox > a {
+        padding-left: 10px;
+    }
    
 }
 
-@media only screen and (min-width: 421px){
+@media only screen and (min-width: 422px){
 
     /*header=============================================================================*/
 
@@ -147,6 +158,20 @@ Final Project
      #middlebox > h3 {
         padding-left: 10px;
         font-size: 1.0em;
+    }
+
+
+    /*paragraph*/
+    #middlebox > p {
+        padding-left: 10px;
+        width: 90%;
+        text-align: justify;
+    }
+
+
+    /*url*/
+    #middlebox > a {
+        padding-left: 10px;
     }
 
 
