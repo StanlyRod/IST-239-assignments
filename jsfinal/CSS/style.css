@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+/*Ramon Stanly Rodriguez
+IST-239 Final Project
+11/28/23*/
+
+
 body {
     min-width: 100%;
     min-height: 100%;
@@ -15,12 +20,6 @@ body {
 
 
 #head {
-
-    /* display: flex;
-    justify-content: center;
-    flex-direction:row;
-    flex-wrap:wrap;
-    background-color: DodgerBlue; */
 
     display: flex;
     justify-content: space-around;
@@ -279,7 +278,7 @@ footer {
     padding: 0;
     margin-top: 277px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;;
     justify-content: space-around;
     background: linear-gradient(#202025, #262626);
     

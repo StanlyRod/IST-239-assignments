@@ -83,6 +83,17 @@ IST-239 Final Project
     #middlebox > a {
         padding-left: 10px;
     }
+
+
+    /*footer..................................................*/
+footer {
+    flex-direction: column;
+    text-align: center;
+}
+
+footer p {
+    margin-left: 10px;
+}
    
 }
 
@@ -412,6 +423,7 @@ IST-239 Final Project
         margin-left: 150px;
 
         margin-right: 0px;
+        
      }
 
 
