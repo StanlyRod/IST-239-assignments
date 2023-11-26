@@ -185,6 +185,16 @@ footer p {
         padding-left: 10px;
     }
 
+     /*footer..................................................*/
+footer {
+    flex-direction: column;
+    text-align: center;
+}
+
+footer p {
+    margin-left: 10px;
+}
+
 
 }
 
@@ -276,6 +286,17 @@ footer p {
         padding-left: 10px;
         font-size: 1.4em;
     }
+
+
+         /*footer..................................................*/
+footer {
+    flex-direction: row;
+    text-align: center;
+}
+
+footer p {
+    margin-left: 10px;
+}
     
 }
 
