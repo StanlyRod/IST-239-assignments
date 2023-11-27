@@ -1,5 +1,13 @@
 "use strict"
 
+/*
+
+Ramon Stanly Rodriguez
+IST-239 Final Project
+11/28/23
+
+*/
+
 
 //this function change the folder color to orange
 function ChangeFolderOrangeColor(value)
@@ -31,9 +39,6 @@ for(let i = 0; i < paragraphFolders.length; i++)
         ChangeFolderOrangeColor(i);
     });
 }
-
-
-
 
 
 
@@ -368,7 +373,7 @@ function CreateOverLay(title1, content1, url1, url1ref, title2, content2, url2, 
 
     overlay.appendChild(middlebox);
 
-    //remove the overlay when click
+    //remove the overlay when clicked
     closeIcon.addEventListener("pointerdown", function() {
     
         document.body.removeChild(overlay);
