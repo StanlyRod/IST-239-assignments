@@ -286,7 +286,7 @@ const projectsInfo = {
 };
 
 
-
+//this function create an overlay
 function CreateOverLay(title1, content1, url1, url1ref, title2, content2, url2, url2ref, title3, content3, url3, url3ref)
 {
     let overlay = document.createElement("div");
