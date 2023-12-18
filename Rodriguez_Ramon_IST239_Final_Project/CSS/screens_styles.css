@@ -56,7 +56,7 @@ IST-239 Final Project
 
     /*Folders=============================================================================*/
 
-    section#bigbox  p.folders {
+    div#bigbox  p.folders {
         margin-left: 63px;
     }
 
@@ -153,7 +153,7 @@ footer p {
 
      /*Folders=============================================================================*/
 
-     section#bigbox  p.folders {
+     div#bigbox  p.folders {
         margin-left: 70px;
     }
 
@@ -266,11 +266,11 @@ footer p {
 
     /*Folders=============================================================================*/
 
-    section#bigbox{
+    div#bigbox{
         width: 90%;
     }
 
-    section#bigbox  p.folders {
+    div#bigbox  p.folders {
         margin-left: 70px;
     }
 
@@ -323,7 +323,7 @@ footer p {
 
      /*Folders=============================================================================*/
 
-     section#bigbox  p.folders {
+     div#bigbox  p.folders {
         margin-left: 90px;
      }
 
@@ -370,7 +370,7 @@ footer p {
 
     /*Folders=============================================================================*/
 
-    section#bigbox  p.folders {
+    div#bigbox  p.folders {
         margin-left: 145px;
      }
 
@@ -389,7 +389,7 @@ footer p {
 
      /*Folders=============================================================================*/
 
-     section#bigbox  p.folders {
+     div#bigbox  p.folders {
         margin-left: 218px;
      }
 
@@ -409,7 +409,7 @@ footer p {
 
     /*Folders=============================================================================*/
 
-    section#bigbox  p.folders {
+    div#bigbox  p.folders {
         margin-left: 240px;
      }
 
@@ -441,7 +441,7 @@ footer p {
 
     /*folders============================================================================*/
 
-    section#bigbox  p.folders {
+    div#bigbox  p.folders {
         margin-left: 150px;
 
         margin-right: 0px;
